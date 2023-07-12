@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="p-0 m-0 font-medium font-brand">
+    <header class="">
+        <section class="containre">
+            <!-- nav top -->
+            <div class="">
+                <div class="flex justify-between items-center px-2 sm:px-[10%] py-2">
+                    <p class="text-primary font-semibold text-lg">RAF<span class="text-black">CART</span></p>
+                    <div class="relative hidden lg:block">
+                        <input class="bg-gray-100 w-80 py-2 pl-8 rounded-l outline-none border-2 border-red-400 border-r-0" type="search" placeholder="Search">
+                        <svg class="absolute top-3 left-2 text-gray-400" width="18" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
+                        </svg>
+                        <button class="bg-primary text-white py-[9.5px] px-4 rounded-r hover:bg-red-600 transition absolute" type="button" >Search</button>
+                    </div>
+                    <div class="space-x-2 flex">
+                        <div class="group">
+                            <a class="relative inline-block text-center group-hover:text-primary transition" href="#">
+                                <svg width="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z"></path>
+                                </svg>
+                                <p class="text-[8px]">cone</p>
+                                <div class="bg-primary w-3 h-3 rounded-full absolute top-0 right-0 text-[8px] text-center text-white">5</div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a class="relative inline-block text-center group-hover:text-primary transition" href="#">
+                                <svg width="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"></path>
+                                </svg>
+                                <p class="text-[8px]">win love</p>
+                                <div class="bg-primary w-3 h-3 rounded-full absolute top-0 right-1 text-[8px] text-center text-white">0</div>
+                            </a>
+                        </div>
+                        <div class="group">
+                            <a class="inline-block text-center group-hover:text-primary transition" href="#">
+                                <svg width="22" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"></path>
+                                </svg>
+                                <p class="text-[8px]">acount</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- navbar -->
+                <nav class=" navbar flex justify-between items-center bg-black py-3 sm:py-0 text-white sm:px-[10%]">
+                    <div class="relative content-left flex items-center text-[13px]">
+                        <div class=" sm:hidden">
+                            <a class="px-4 pt-[13px] pb-[15px] text-lg hover:bg-white hover:text-black transition" href="#">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="text-white bg-primary hover:bg-red-600 flex flex-row-reverse justify-center w-[13em] transition group hidden sm:inline-flex">
+                            <div class=" py-4">All Categories</div>
+                            <svg class="mr-2" width="16" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z"></path>
+                            </svg>
+                            <div class="absolute top-0 left-0 w-[13em] bg-white text-gray-500 divide-y hidden group-hover:block group-hover:top-12">
+                                <a class=" hover:bg-gray-100 flex items-center px-3 py-3 transition text-[12px]" href="#">
+                                    <svg class="inline text-primary" width="16px" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"></path>
+                                    </svg>
+                                    <span class="ml-3">Bedroom</span>
+                                </a>
+                                <a class=" hover:bg-gray-100 flex items-center px-3 py-3 transition text-[12px]" href="#">
+                                    <svg class="inline text-primary" width="16px" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"></path>
+                                    </svg>
+                                    <span class="ml-3">Sofo</span>
+                                </a>
+                                <a class=" hover:bg-gray-100 flex items-center px-3 py-3 transition text-[12px]" href="#">
+                                    <svg width="16" class="text-primary" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008zm0 3h.008v.008h-.008v-.008z"></path>
+                                    </svg>
+                                    <span class="ml-3">Office</span>
+                                </a>
+                                <a class=" hover:bg-gray-100 flex items-center px-3 py-3 transition text-[12px]" href="#">
+                                    <svg width="16" class="text-primary" fill="none" stroke="currentColor" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15"></path>
+                                    </svg>
+                                    <span class="ml-3">Outdoor</span>
+                                </a>
+                                <a class=" hover:bg-gray-100 flex items-center px-3 py-3 transition text-[12px]" href="#">
+                                    <svg width="16" class="text-primary" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z"></path>
+                                    </svg>
+                                    <span class="ml-3">Mottress</span>
+                                </a>
+                                <a class=" hover:bg-gray-100 flex items-center px-3 py-3 transition text-[12px]" href="#">
+                                    <svg width="16" class="text-primary" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"></path>
+                                    </svg>
+                                    <span class="ml-3">Sofo</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hidden lg:block space-x-3">
+                            <a class="hover:bg-white py-[17px] px-4 hover:text-black transition ml-2" href="#">Home</a>
+                            <a class="hover:bg-white py-[17px] px-4 hover:text-black transition" href="#">Shop</a>
+                            <a class="hover:bg-white py-[17px] px-4 hover:text-black transition" href="#">About Us</a>
+                            <a class="hover:bg-white py-[17px] px-4 hover:text-black transition" href="#">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="content-right text-[13px]">
+                        <a class="hover:bg-white p-[17px] sm:py[17px] px-4 hover:text-black transition" href="#"><span>Login/Register</span></a>
+                    </div>
+                </nav>
+            </div>
+            <!-- header box -->
+            <div class="w-full h-[26em] bg-cover bg-center" style="background-image: url(../img/istockphoto-613658366-612x612.jpg);">
+                <div class=" h-full flex flex-col justify-center pl-[10%]">
+                    <h1 class="text-3xl w-64">Best Collection For Home Descoration</h1>
+                    <p class="text-[13px] w-60 mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, odio</p>
+                    <a href="#" class=" bg-primary w-32 py-3 text-white text-[13px] text-center rounded mt-6 hover:bg-red-600 transition">SHOP NOW</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- section main -->
+    <main class="main">
+        <section class="">
+            <div class="sm:w-[70%] mx-auto">
+                <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-w-[330px] sm:max-w-none mx-auto">
+                    <a class="group" href="#">
+                        <div class="border-2 border-primary h-[5em] flex justify-center items-center flex-row-reverse rounded group-hover:bg-gray-100 transition">
+                            <div class="">
+                                <h2 class="text-sm">Free Shopping</h2>
+                                <span class="text-[12px] text-gray-400">Order over $200</span>
+                            </div>
+                            <div class="mr-3 text-primary">
+                                <svg width="24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="group" href="#">
+                        <div class="border-2 border-primary h-[5em] flex justify-center items-center flex-row-reverse rounded group-hover:bg-gray-100 transition">
+                            <div>
+                                <h2 class="text-sm">Money Returns</h2>
+                                <span class="text-[12px] text-gray-400">30 days money return</span>
+                            </div>
+                            <div class="mr-3 text-primary">
+                                <svg width="24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="group" href="#">
+                        <div class="border-2 border-primary h-[5em] flex justify-center items-center flex-row-reverse rounded group-hover:bg-gray-100 transition">
+                            <div>
+                                <h2 class="text-sm">24/7 Support</h2>
+                                <span class="text-[12px] text-gray-400">Content support</span>
+                            </div>
+                            <div class="mr-3 text-primary">
+                                <svg width="24" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 011.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 00-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 010 9.424m-4.138-5.976a3.736 3.736 0 00-.88-1.388 3.737 3.737 0 00-1.388-.88m2.268 2.268a3.765 3.765 0 010 2.528m-2.268-4.796a3.765 3.765 0 00-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 01-1.388.88m2.268-2.268l4.138 3.448m0 0a9.027 9.027 0 01-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0l-3.448-4.138m3.448 4.138a9.014 9.014 0 01-9.424 0m5.976-4.138a3.765 3.765 0 01-2.528 0m0 0a3.736 3.736 0 01-1.388-.88 3.737 3.737 0 01-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 01-1.652-1.306 9.027 9.027 0 01-1.306-1.652m0 0l4.138-3.448M4.33 16.712a9.014 9.014 0 010-9.424m4.138 5.976a3.765 3.765 0 010-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 011.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 00-1.652 1.306A9.025 9.025 0 004.33 7.288"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- section shop main -->
+            <div class="sm:w-[70%] mx-auto mt-20">
+                <h1 class="mb-4 uppercase text-xl max-w-[330px] sm:max-w-none mx-auto">shop by category</h1>
+                <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-2 max-w-[330px] sm:max-w-none mx-auto">
+                    <div class="bg-black h-[12em] rounded relative group max-w-[330px]">
+                        <img class="w-full h-full bg-black opacity-80 group-hover:opacity-50 transition" src="../img/img1.jfif" alt="">
+                        <span class="absolute inset-0 flex justify-center items-center text-white capitalize text-sm">bedroom</span>
+                    </div>
+                    <div class="bg-black h-[12em] rounded relative group max-w-[330px]">
+                        <img class="w-full h-full bg-black opacity-80 group-hover:opacity-50 transition" src="../img/img2.jfif" alt="">
+                        <span class="absolute inset-0 flex justify-center items-center text-white capitalize text-sm">office</span>
+                    </div>
+                    <div class="bg-black h-[12em] rounded relative group max-w-[330px]">
+                        <img class="w-full h-full bg-black opacity-80 group-hover:opacity-50 transition" src="../img/img1.jfif" alt="">
+                        <span class="absolute inset-0 flex justify-center items-center text-white capitalize text-sm">bedroom</span>
+                    </div>
+                    <div class="bg-black h-[12em] rounded relative group max-w-[330px]">
+                        <img class="w-full h-full bg-black opacity-80 group-hover:opacity-50 transition" src="../img/img2.jfif" alt="">
+                        <span class="absolute inset-0 flex justify-center items-center text-white capitalize text-sm">office</span>
+                    </div>
+                    <div class="bg-black h-[12em] rounded relative group max-w-[330px]">
+                        <img class="w-full h-full bg-black opacity-80 group-hover:opacity-50 transition" src="../img/img1.jfif" alt="">
+                        <span class="absolute inset-0 flex justify-center items-center text-white capitalize text-sm">bedroom</span>
+                    </div>
+                    <div class="bg-black h-[12em] rounded relative group max-w-[330px]">
+                        <img class=" h-full bg-black opacity-80 group-hover:opacity-50 transition" src="../img/img2.jfif" alt="">
+                        <span class="absolute inset-0 flex justify-center items-center text-white capitalize text-sm">office</span>
+                    </div>
+                </div>
+            </div>
+            <!-- top new arrival -->
+            <div class="sm:w-[70%] mx-auto mt-20">
+                <h1 class="text-xl uppercase mb-4 max-w-[320px] sm:max-w-none mx-auto">top new arrival</h1>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 max-w-[320px] sm:max-w-none mx-auto">
+                    <div class="shadow-md group rounded overflow-hidden max-w-[320px]">
+                        <div class="relative bg-black">
+                            <img class="w-full h-[10em] opacity-90 group-hover:opacity-60 transition" src="../img/img-sandal.jfif" alt="">
+                            <div class="flex absolute inset-0 justify-center items-center space-x-1 opacity-0 group-hover:opacity-100 transition">
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <h1 class="text-lg uppercase mt-3">guyer chair</h1>
+                            <div class="flex items-center">
+                                <span class="text-md text-primary">$45.00</span>
+                                <span class="text-xs ml-1">$44.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-yellow-300 text-sm">
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="text-xs text-gray-500 ml-2">(150)</div>
+                            </div>
+                        </div>
+                        <a class="block w-full bg-primary text-center text-white rounded-b py-2 text-sm mt-3 hover:bg-white hover:border-2 hover:border-primary hover:text-black transition" href="#">Add to cart</a>
+                    </div>
+                    <div class="shadow-md group rounded overflow-hidden max-w-[320px]">
+                        <div class="relative bg-black">
+                            <img class="w-full h-[10em] opacity-90 group-hover:opacity-60 transition" src="../img/img-sandal.jfif" alt="">
+                            <div class="flex absolute inset-0 justify-center items-center space-x-1 opacity-0 group-hover:opacity-100 transition">
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <h1 class="text-lg uppercase mt-3">guyer chair</h1>
+                            <div class="flex items-center">
+                                <span class="text-md text-primary">$45.00</span>
+                                <span class="text-xs ml-1">$44.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-yellow-300 text-sm">
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="text-xs text-gray-500 ml-2">(150)</div>
+                            </div>
+                        </div>
+                        <a class="block w-full bg-primary text-center text-white rounded-b py-2 text-sm mt-3 hover:bg-white hover:border-2 hover:border-primary hover:text-black transition" href="#">Add to cart</a>
+                    </div>
+                    <div class="shadow-md group rounded overflow-hidden max-w-[320px]">
+                        <div class="relative bg-black">
+                            <img class="w-full h-[10em] opacity-90 group-hover:opacity-60 transition" src="../img/img-sandal.jfif" alt="">
+                            <div class="flex absolute inset-0 justify-center items-center space-x-1 opacity-0 group-hover:opacity-100 transition">
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <h1 class="text-lg uppercase mt-3">guyer chair</h1>
+                            <div class="flex items-center">
+                                <span class="text-md text-primary">$45.00</span>
+                                <span class="text-xs ml-1">$44.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-yellow-300 text-sm">
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="text-xs text-gray-500 ml-2">(150)</div>
+                            </div>
+                        </div>
+                        <a class="block w-full bg-primary text-center text-white rounded-b py-2 text-sm mt-3 hover:bg-white hover:border-2 hover:border-primary hover:text-black transition" href="#">Add to cart</a>
+                    </div>
+                    <div class="shadow-md group rounded overflow-hidden max-w-[320px]">
+                        <div class="relative bg-black">
+                            <img class="w-full h-[10em] opacity-90 group-hover:opacity-60 transition" src="../img/img-sandal.jfif" alt="">
+                            <div class="flex absolute inset-0 justify-center items-center space-x-1 opacity-0 group-hover:opacity-100 transition">
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                                </a>
+                                <a class="bg-primary w-8 h-8 text-[13px] flex justify-center items-center rounded-full text-white hover:bg-white hover:text-black transition" href="#">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="px-3">
+                            <h1 class="text-lg uppercase mt-3">guyer chair</h1>
+                            <div class="flex items-center">
+                                <span class="text-md text-primary">$45.00</span>
+                                <span class="text-xs ml-1">$44.00</span>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="text-yellow-300 text-sm">
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                    <span><i class="fa fa-star" aria-hidden="true"></i></span>
+                                </div>
+                                <div class="text-xs text-gray-500 ml-2">(150)</div>
+                            </div>
+                        </div>
+                        <a class="block w-full bg-primary text-center text-white rounded-b py-2 text-sm mt-3 hover:bg-white hover:border-2 hover:border-primary hover:text-black transition" href="#">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <!-- bootom new arrival -->
+            <div class="w-[70%] mx-auto mt-20 hidden md:block group bg-black">
+                <div class="w-full h-60 bg-cover bg-center shadow-md relative opacity-80 group-hover:opacity-100 transition" style="background-image: url(../img/imgggg.jfif);">
+                    <div class=" absolute uppercase bg-white shadow-2xl w-5 h-5 rounded-full bottom-0 group-hover:h-full group-hover:w-80 group-hover:rounded-none group-hover:rounded-tr-full group-hover:transition-all transition border-r-0 py-10 px-10 ">
+                        <div class="hidden group-hover:block">
+                            <p class="text-xs text-gray-600 mb-1">online exclusive</p>
+                            <span class="text-2xl text-primary font-bold">15%</span>
+                            <span class="text-2xl font-bold bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-400 to-orange-700 text-transparent"> off</span>
+                            <p class="text-sm text-gray-700 mb-6 mt-4">accent chairs,<br> benches & ottomans</p>
+                            <a class="capitalize bg-primary text-white py-2 px-6 rounded text-xs hover:bg-red-700" href="#">shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- section footer -->
+
+    <footer>
+        <section class="w-[70%] mx-auto mt-20">
+            <div class="grid lg:grid-cols-2 gap-y-10">
+                <div class="">
+                    <p class="text-primary font-semibold text-lg relative grid grid-cols-2 sm:grid-cols-4 gap-y-6 lg:gap-x-6">
+                        <span class="">RAF<span class="text-black">CART</span></p>
+                    <p class="text-gray-500 text-xs md:w-[50%] mb-6 mt-4">Lorem ipsum dolor, sit amet  consectetur adipisicing elit consectetur adipisicing.</p>
+                    <div class="text-gray-500 text-xs space-x-5">
+                        <a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative grid grid-cols-2 sm:grid-cols-4 gap-y-6 lg:gap-x- text-xs text-gray-500">
+                    <span class="hover:before:content[''] before:w-0  hover:before:w-[54px]  hover:before:h-[2px] hover:before:bg-blue-500 hover:before:absolute hover:before:top-5 hover:before:transition  hover:before:animate-bounce">marketing</span>
+                    <span>analytice</span>
+                    <span>commerce</span>
+                    <span>insigts</span>
+                    <span>solutiong</span>
+                    <span>marketing</span>
+                    <span>analygimi</span>
+                    <span>commerce</span>
+                    <span>insigts</span>
+                    <span>solutiong</span>
+                    <span>marketing</span>
+                    <span>analytice</span>
+                    <span>commerce</span>
+                    <span>insigts</span>
+                    <span>solutiong</span>
+                    <span>marklayou</span>
+                    <span>analytice</span>
+                    <span>commerce</span>
+                    <span>insigts</span>
+                    <span>insigts</span>
+                </div>
+            </div>
+        </section>
+        <br><br>
+    </footer>
+</body>
+</html>
